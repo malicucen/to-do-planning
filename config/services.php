@@ -35,4 +35,14 @@ return [
         ],
     ],
 
+    'task_provider_one' => [
+        'url' => env('TASK_PROVIDER_ONE_URL', 'https://raw.githubusercontent.com/WEG-Technology/mock/refs/heads/main/mock-one'),
+        'enabled' => env('TASK_PROVIDER_ONE_ENABLED', true),
+    ],
+
+    'task_provider_two' => [
+        'url' => env('TASK_PROVIDER_TWO_URL', 'https://raw.githubusercontent.com/WEG-Technology/mock/refs/heads/main/mock-two'),
+        'enabled' => env('TASK_PROVIDER_TWO_ENABLED', true),
+    ],
+
 ];
